@@ -9,9 +9,6 @@ import ProjectService from 'src/services/ProjectService';
 
 
 
-
-
-
 export default function CreateProjectTable( {handleClose} ) {
 
     const projectService = new ProjectService(); 
@@ -115,4 +112,5 @@ export default function CreateProjectTable( {handleClose} ) {
       </Table>
     </TableContainer>
   );
+
 }
